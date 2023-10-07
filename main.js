@@ -15,7 +15,7 @@ function addItem(e){
     // Create an object to store user data
     const userData = { name, email };
 
-    // Store user data in localStorage
+    // Store user data in localStorage as an string converted from String
     localStorage.setItem(email, JSON.stringify(userData));
 
     // Clear the form inputs
